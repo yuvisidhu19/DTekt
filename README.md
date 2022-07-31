@@ -1,3 +1,4 @@
 # DTekt
 DTekt is a chrome extension that can identify counterfeit products on Amazon using sentiment analysis of the product reviews by only "verified purchase" buyers i.e. the review of the customers who have actually bought the product. Sentiment analysis applies a mix of statistics, natural language processing (NLP), and machine learning to identify and extract subjective information from text files, for instance, a reviewer’s judgments and assessments about a particular product. This extension can scrape the website and collect the necessary data which is further fed to a pre-trained ML (Bert) model, which in turn, returns a rating from 1 to 100. The higher the rating, the higher is the product's authenticity.
+
 ![WhatsApp Image 2022-07-31 at 7 07 31 PM](https://user-images.githubusercontent.com/67970877/182040545-c2ff3936-b746-447c-8924-8f7ea8ce0af4.jpg)
