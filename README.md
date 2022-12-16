@@ -11,7 +11,7 @@ Two types of dataset are used to create models. One dataset (original.txt and fa
 ```
 counterfeit_score = fakeness * 0.7 + negativeness * 0.3
 
-authenticity_score =  round((1 - counterfeit_score), 2)*100
+authenticity_score =  round((1 - counterfeit_score)*100, 2)
 ```
 
 # Screenshot
