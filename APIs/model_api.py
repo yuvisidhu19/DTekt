@@ -32,9 +32,10 @@ def model():
     # answer = (realness*0.8 + positiveness*0.2) / 2
     fakeness = fake/(fake + real)
     negativeness = neg/(neg + pos)
-    answer = negativeness
-    if fakeness >= 0.35:
-        answer = min(negativeness + 0.15, 1.00)
+    answer = fakeness * 0.7 + negativeness * 0.3
+#     answer = negativeness
+#     if fakeness >= 0.35:
+#         answer = min(negativeness + 0.15, 1.00)
     # print('fakeness: ', fakeness, flush=True)
     # print('negativeness', negativeness, flush=True)
 
